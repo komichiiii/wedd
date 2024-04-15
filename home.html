@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="boostrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="boostrap/bootstrap.css">
+    <link rel="stylesheet" href="boostrap/interfaz.css">
+</head>
+<body>
+    <div class="container my-3" id="container_contenido">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-4 bg-white">
+            <div>
+              <h2>Formulario del Style</h2>
+              <form>
+                <div class="mb-3">
+                  <label for="nombre" class="form-label">Style</label>
+                  <input type="text" class="form-control" id="nombre" autofocus placeholder="Style">
+                </div>
+                <div class="mb-3">
+                  <label for="descripcion" class="form-label">Descipcion</label>
+                  <textarea class="form-control" id="descripcion" placeholder="Descripcion del Style"
+                    rows="3"></textarea>
+                </div>
+                <div class="mb-3">
+                  <label for="programadores" class="form-label">Numero de Players</label>
+                  <input type="number" class="form-control" id="programadores" />
+                </div>
+                <div class="d-grid gap-2">
+                  <button class="btn btn-success">Guardar</button>
+                  <button class="btn btn-secondary">Limpiar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 py-4 bg-white">
+            <h2>Listado de Estilos de juego</h2>
+            <table class="table table-dark table-striped">
+              <thead>
+                <tr>
+                  <th class="centrado">#</th>
+                  <th class="centrado">Style</th>
+                  <th class="centrado">Cantidad de Players</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="centrado">1</td>
+                  <td class="centrado">Bhop</td>
+                  <td class="centrado">112</td>
+                </tr>
+                <tr>
+                  <td class="centrado">2</td>
+                  <td class="centrado">Surf</td>
+                  <td class="centrado">410</td>
+                </tr>
+                <tr>
+                  <td class="centrado">3</td>
+                  <td class="centrado">SGS</td>
+                  <td class="centrado">28</td>
+                </tr>
+                <tr>
+                  <td class="centrado">4</td>
+                  <td class="centrado">HyperScroll</td>
+                  <td class="centrado">34</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

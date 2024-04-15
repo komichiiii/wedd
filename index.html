@@ -10,21 +10,22 @@
   <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
   <link rel="stylesheet" href="boostrap/bootstrap.css">
   <link rel="stylesheet" href="boostrap/interfaz.css">
+  <link rel="shortcut icon" href="iconn.png" type="image/x-icon">
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Estilos de Juegos</a>
+      <a class="navbar-brand" href="index.html" id="home">Estilos de Juegos</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
-          <a class="nav-link active" href="#">Pagina Pincipal</a>
-          <a class="nav-link" href="#">Top</a>
-          <a class="nav-link" href="#">Lo mejor del mes</a>
+          <a class="nav-link active" href="index.html" id="home">Pagina Pincipal</a>
+          <a class="nav-link" href="top.html" id="item_menu_top">Top</a>
+          <a class="nav-link" href="lomejor.html" id="item_menu_lomejor">Lo mejor del mes</a>
         </div>
       </div>
     </div>
@@ -37,18 +38,18 @@
           <i class="lni lni-grid-alt"></i>
         </button>
         <div class="sidebar-logo">
-          <a href="#">CodzSword</a>
+          <a href="index.html" id="home">Home</a>
         </div>
       </div>
       <ul class="sidebar-nav">
         <li class="sidebar-item">
-          <a href="#" class="sidebar-link">
+          <a href="profile.html" class="sidebar-link" id="item_menu_profile">
             <i class="lni lni-user"></i>
             <span>Profile</span>
           </a>
         </li>
         <li class="sidebar-item">
-          <a href="#" class="sidebar-link">
+          <a href="task.html" class="sidebar-link" id="item_menu_task">
             <i class="lni lni-agenda"></i>
             <span>Task</span>
           </a>
@@ -61,10 +62,10 @@
           </a>
           <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
             <li class="sidebar-item">
-              <a href="#" class="sidebar-link">Login</a>
+              <a href="login.html" class="sidebar-link" id="item_menu_login">Login</a>
             </li>
             <li class="sidebar-item">
-              <a href="#" class="sidebar-link">Register</a>
+              <a href="register.html" class="sidebar-link" id="item_menu_register">Register</a>
             </li>
           </ul>
         </li>
@@ -82,23 +83,23 @@
               </a>
               <ul id="multi-two" class="sidebar-dropdown list-unstyled collapse">
                 <li class="sidebar-item">
-                  <a href="#" class="sidebar-link">Link 1</a>
+                  <a href="link1.html" class="sidebar-link" id="item_menu_link1">Link 1</a>
                 </li>
                 <li class="sidebar-item">
-                  <a href="#" class="sidebar-link">Link 2</a>
+                  <a href="link2.html" class="sidebar-link" id="item_menu_link2">Link 2</a>
                 </li>
               </ul>
             </li>
           </ul>
         </li>
         <li class="sidebar-item">
-          <a href="#" class="sidebar-link">
+          <a href="notification.html" class="sidebar-link" id="item_menu_notification">
             <i class="lni lni-popup"></i>
             <span>Notification</span>
           </a>
         </li>
         <li class="sidebar-item">
-          <a href="#" class="sidebar-link">
+          <a href="settings.html" class="sidebar-link" id="item_menu_settings">
             <i class="lni lni-cog"></i>
             <span>Setting</span>
           </a>
@@ -113,7 +114,7 @@
     </aside>
     <div class="main p-3">
       
-      <div class="container my-3">
+      <div class="container my-3" id="container_contenido">
         <div class="row">
           <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-4 bg-white">
             <div>
